@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Dark animated cybersecurity portfolio for Prajav Krishna S B."
+    />
+    <title>Prajav Krishna S B - Cybersecurity Analyst</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="loader" data-loader>
+      <div class="loader__city" aria-hidden="true">
+        <span></span><span></span><span></span><span></span>
+      </div>
+      <div class="loader__scene" aria-hidden="true">
+        <div class="loader__moon"></div>
+        <div class="loader__bank">
+          <div class="loader__roof"></div>
+          <div class="loader__pillars">
+            <span></span><span></span><span></span><span></span>
+          </div>
+          <div class="loader__door"></div>
+        </div>
+        <div class="loader__car">
+          <span class="loader__light"></span>
+          <span class="loader__wheel loader__wheel--front"></span>
+          <span class="loader__wheel loader__wheel--back"></span>
+        </div>
+        <div class="loader__cash loader__cash--one">$</div>
+        <div class="loader__cash loader__cash--two">$</div>
+        <div class="loader__cash loader__cash--three">$</div>
+        <div class="loader__crash"></div>
+        <div class="loader__vault"></div>
+      </div>
+      <div class="loader__copy">
+        <p>WELCOME TO MY WORLD</p>
+        <h2>SYSTEM BREACH INITIATED</h2>
+      </div>
+      <div class="loader__bar"><span data-loader-bar></span></div>
+      <strong data-loader-count>0%</strong>
+    </div>
+
+    <canvas id="heist-scene" aria-hidden="true"></canvas>
+    <audio id="portfolio-audio" src="assets/bella-ciao-slow.mp4" loop preload="auto"></audio>
+    <div class="cursor" data-cursor></div>
+
+    <header class="site-header">
+      <a href="#top" class="brand">Prajav Krishna S B</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#services">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#work">Projects</a>
+        <a href="#blogs">Blogs</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-cta" href="#contact">Hire Me</a>
+    </header>
+
+    <aside class="social-rail" aria-label="Social links">
+      <a href="https://github.com/prajavkrish" aria-label="GitHub">GH</a>
+      <a href="https://www.linkedin.com/in/prajavkrishna" aria-label="LinkedIn">IN</a>
+      <a href="mailto:prajavkrishnaofficial@gmail.com" aria-label="Email">@</a>
+    </aside>
+
+    <aside class="quick-actions" aria-label="Quick links">
+      <a href="assets/prajav-krishna-resume.pdf" target="_blank" rel="noopener">Resume</a>
+      <a href="https://github.com/prajavkrish" target="_blank" rel="noopener">GitHub</a>
+    </aside>
+
+    <button class="audio-float" type="button" data-audio-toggle>Audio</button>
+
+    <main id="top">
+      <section class="hero section" data-section>
+        <div class="hero__intro">
+          <p class="eyebrow">Hello! I'm</p>
+          <h1>PRAJAV KRISHNA</h1>
+          <div class="role-stack" aria-label="Roles">
+            <span>A</span>
+            <strong>Cybersecurity Analyst</strong>
+            <strong>DFIR Enthusiast</strong>
+          </div>
+          <p class="hero__copy">
+            I investigate alerts, analyze logs, monitor security events, and build
+            security-focused tools for threat detection, incident analysis, and
+            digital forensics workflows.
+          </p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#work">View Projects</a>
+            <a class="button button--ghost" href="https://github.com/prajavkrish" target="_blank" rel="noopener">GitHub</a>
+            <a class="button button--ghost" href="assets/prajav-krishna-resume.pdf" target="_blank" rel="noopener">Resume</a>
+          </div>
+        </div>
+        <div class="hero__visual" aria-label="Animated cybersecurity portrait">
+          <div class="portrait-orbit">
+            <div class="portrait-core">
+              <img src="assets/profile.png" alt="Prajav Krishna S B" />
+            </div>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#about">Scroll Down</a>
+      </section>
+
+      <section id="about" class="section about" data-section>
+        <div class="section-label">About Me</div>
+        <div class="about__grid">
+          <div class="about__portrait">
+            <div class="portrait-card">
+              <img src="assets/about-red-portrait.png" alt="Prajav Krishna S B cyberpunk portrait" />
+            </div>
+          </div>
+          <div class="about__content">
+            <p class="eyebrow">About Me</p>
+            <h2>I turn security signals into clear investigations.</h2>
+            <p>
+              I am a cybersecurity and digital forensics enthusiast with hands-on
+              experience in SOC monitoring, log analysis, packet investigation,
+              Linux, Wireshark, Splunk, Python-based security tools, and cloud
+              security fundamentals.
+            </p>
+            <div class="mini-stats">
+              <div><strong>SOC</strong><span>Monitoring</span></div>
+              <div><strong>DFIR</strong><span>Investigation</span></div>
+              <div><strong>BCA</strong><span>2022 - 2025</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section services" data-section>
+        <div class="section-heading">
+          <p class="eyebrow">What I Do</p>
+          <h2>Security skills shaped for real investigations.</h2>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <span>01</span>
+            <h3>SOC Analysis</h3>
+            <p>Monitoring alerts, reviewing logs, triaging incidents, and mapping activity to security concepts.</p>
+            <div class="chip-row">
+              <b>Splunk</b><b>SIEM</b><b>Sysmon</b><b>Windows Event Viewer</b><b>EDR</b>
+            </div>
+          </article>
+          <article class="service-card">
+            <span>02</span>
+            <h3>Digital Forensics</h3>
+            <p>Investigating network traffic, file activity, phishing scenarios, and forensic evidence.</p>
+            <div class="chip-row">
+              <b>Wireshark</b><b>Autopsy</b><b>FTK Imager</b><b>MITRE ATT&CK</b><b>YARA</b>
+            </div>
+          </article>
+          <article class="service-card">
+            <span>03</span>
+            <h3>Security Tooling</h3>
+            <p>Building Python tools for monitoring, hashing, alerting, and security workflow automation.</p>
+            <div class="chip-row">
+              <b>Python</b><b>Bash</b><b>SQL</b><b>Linux</b><b>Kali Linux</b>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section experience" data-section>
+        <div class="section-heading">
+          <p class="eyebrow">My Career & Experience</p>
+          <h2>A journey built through labs, projects, and security practice.</h2>
+        </div>
+        <div class="timeline">
+          <article>
+            <span>NOW</span>
+            <h3>Cybersecurity Analyst</h3>
+            <p>Focused on SOC workflows, DFIR, threat detection, and incident analysis.</p>
+          </article>
+          <article>
+            <span>2025</span>
+            <h3>BCA Graduate</h3>
+            <p>Bachelor of Computer Applications, Scott Christian College, Nagercoil.</p>
+          </article>
+          <article>
+            <span>LABS</span>
+            <h3>Hands-On Security Practice</h3>
+            <p>Packet analysis, phishing investigation, brute-force scenarios, Splunk, TryHackMe, and Hack The Box.</p>
+          </article>
+          <article>
+            <span>CERT</span>
+            <h3>Red Team Hackers Academy</h3>
+            <p>Certified SOC Analyst (CICSA) and Certified Infrastructure Analyst.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="work" class="section work" data-section>
+        <div class="section-heading">
+          <p class="eyebrow">My Projects</p>
+          <h2>Security projects with investigation-focused workflows.</h2>
+        </div>
+        <div class="work-list">
+          <article class="work-item">
+            <div class="work-index">01</div>
+            <div>
+              <h3>SOC-DEADMAN</h3>
+              <p>AI-Powered SOC Monitoring Dashboard</p>
+              <div class="chip-row"><b>Linux</b><b>Python</b><b>Flask</b><b>PostgreSQL</b><b>SIEM Concepts</b></div>
+              <a class="project-link" href="https://github.com/prajavkrish/SOC-DEADMAN" target="_blank" rel="noopener">View Repository</a>
+            </div>
+            <a class="work-preview" href="https://github.com/prajavkrish/SOC-DEADMAN" target="_blank" rel="noopener">
+              <img src="assets/soc-deadman.png" alt="SOC-DEADMAN cybersecurity dashboard artwork" />
+              <span>Alert Triage</span>
+            </a>
+          </article>
+          <article class="work-item">
+            <div class="work-index">02</div>
+            <div>
+              <h3>File Integrity Monitoring</h3>
+              <p>Unauthorized Change Detection Tool</p>
+              <div class="chip-row"><b>Python</b><b>Linux</b><b>Hashing</b><b>Event Logs</b><b>GitHub</b></div>
+              <a class="project-link" href="https://github.com/prajavkrish/fim-tool" target="_blank" rel="noopener">View Repository</a>
+            </div>
+            <a class="work-preview" href="https://github.com/prajavkrish/fim-tool" target="_blank" rel="noopener">
+              <img src="assets/fim-tool.png" alt="File Integrity Monitoring cybersecurity artwork" />
+              <span>File Watch</span>
+            </a>
+          </article>
+          <article class="work-item">
+            <div class="work-index">03</div>
+            <div>
+              <h3>Security Labs</h3>
+              <p>Packet, Phishing, Brute-Force, and SIEM Practice</p>
+              <div class="chip-row"><b>Wireshark</b><b>Splunk</b><b>TryHackMe</b><b>Hack The Box</b></div>
+              <a class="project-link" href="https://github.com/prajavkrish" target="_blank" rel="noopener">View GitHub</a>
+            </div>
+            <a class="work-preview" href="https://github.com/prajavkrish" target="_blank" rel="noopener">
+              <img src="assets/security-labs.png" alt="Security labs digital forensics artwork" />
+              <span>DFIR Notes</span>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section id="blogs" class="section blogs" data-section>
+        <div class="section-heading">
+          <p class="eyebrow">Blogs</p>
+          <h2>Cybersecurity writing from my Medium journal.</h2>
+        </div>
+        <div class="blog-grid">
+          <a class="blog-card" href="https://medium.com/@prajavkrishnaofficial/github-got-hacked-cf0607e1e24a" target="_blank" rel="noopener">
+            <span>May 28, 2026</span>
+            <h3>GitHub Got Hacked?</h3>
+            <p>Supply chain risk, developer tooling, and why trusted extensions can become attack paths.</p>
+          </a>
+          <a class="blog-card" href="https://medium.com/@prajavkrishnaofficial/what-really-exists-on-the-dark-web-411ee34a4ce7" target="_blank" rel="noopener">
+            <span>May 19, 2026</span>
+            <h3>What Really Exists on the Dark Web?</h3>
+            <p>A cybersecurity awareness look at anonymity networks, hidden communities, and data exposure.</p>
+          </a>
+          <a class="blog-card" href="https://medium.com/@prajavkrishnaofficial/will-ai-create-the-next-generation-of-malware-fb33007c85fa" target="_blank" rel="noopener">
+            <span>May 15, 2026</span>
+            <h3>Will AI Create the Next Generation of Malware?</h3>
+            <p>Exploring how AI changes both attacker capability and defender responsibility.</p>
+          </a>
+          <a class="blog-card" href="https://medium.com/@prajavkrishnaofficial/understanding-the-dirtyfrag-linux-vulnerability-from-low-privilege-user-to-root-access-cd23a02719a9" target="_blank" rel="noopener">
+            <span>May 11, 2026</span>
+            <h3>Understanding the DirtyFrag Linux Vulnerability</h3>
+            <p>Privilege escalation, root access, and defensive lessons from a controlled Linux lab.</p>
+          </a>
+          <a class="blog-card" href="https://medium.com/@prajavkrishnaofficial/important-windows-event-ids-every-soc-analyst-should-know-41af97349bbf" target="_blank" rel="noopener">
+            <span>May 09, 2026</span>
+            <h3>Important Windows Event IDs Every SOC Analyst Should Know!</h3>
+            <p>Core Windows telemetry for SOC investigations, threat hunting, and event correlation.</p>
+          </a>
+        </div>
+        <a class="button button--ghost blog-more" href="https://medium.com/@prajavkrishnaofficial" target="_blank" rel="noopener">Read on Medium</a>
+      </section>
+
+      <section id="contact" class="section contact" data-section>
+        <p class="eyebrow">Contact</p>
+        <h2>Need a security-focused analyst?</h2>
+        <p>Reach out for SOC, DFIR, threat detection, or security tooling opportunities.</p>
+        <div class="contact-details" aria-label="Contact details">
+          <span>Nagercoil</span>
+          <a href="tel:+919385298352">+91 9385298352</a>
+          <a href="https://www.linkedin.com/in/prajavkrishna">LinkedIn: prajavkrishna</a>
+        </div>
+        <a class="button button--primary" href="mailto:prajavkrishnaofficial@gmail.com">prajavkrishnaofficial@gmail.com</a>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
